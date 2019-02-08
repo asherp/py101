@@ -1,7 +1,9 @@
 # About
 
-This repository hosts materials for the ccmc python/kamodo workshop. Here you will find
+The Lab Materials are hosted on the developer nasa git here 
+[https://developer.nasa.gov/CCMC/python101](https://developer.nasa.gov/CCMC/python101)
 
+Where you will find
 * python environment files
 * python notebooks
 * example python executables
@@ -39,3 +41,13 @@ However, each of these have several dependencies which must also be installed in
 
     (py101) pip install -r requirements.txt
 
+# Organization
+
+These materials are organized into several different notebooks by topic:
+
+* [Notebook Basics](notebooks/Notebook_basics.ipynb) - How to run and navigate the notebooks
+* [Python Data types](Python_Data_Types.ipynb) - covers python's built-in data types and operations (int, float, list, tuple, dict, etc.)
+* [Scientific Data Types](Scientific_Data_Types.ipynb) - covers numpy and pandas data and operations
+* [Defining Functions](Functions.ipynb) - how to write custom functions and decorators
+* [Defining Types](Custom_Types.ipynb) - how to write custom data types (objects)
+* [I/O and Scripting](File_IO_Scripting.ipynb) - how to read and write files and generate executable scripts

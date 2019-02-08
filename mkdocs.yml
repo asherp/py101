@@ -1,11 +1,14 @@
 site_name: Kameleon Live
 
 nav:
-    - Home: index.md
-    - Installing From Source: install.md
-    - Installing From Container: container.md
-    - Analysis: notebooks/FieldManager_tut.ipynb
-    - Generating Documentation: mkdocs_instructions.md
+    - Home: README.md
+    - Notebook basics: notebooks/Notebook_basics.ipynb
+    - Python Data types: notebooks/Python_Data_Types.ipynb
+    - Scientific Data Types: notebooks/Scientific_Data_Types.ipynb
+    - Functions: notebooks/Functions.ipynb
+    - Objects: notebooks/Custom_Types.ipynb
+    - I/O and Scripting: notebooks/File_IO_Scripting.ipynb
+
 theme: readthedocs
 plugins:
     - mknotebooks:
