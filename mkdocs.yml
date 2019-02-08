@@ -1,4 +1,4 @@
-site_name: Kameleon Live
+site_name: CCMC Intro to Python
 
 nav:
     - Home: README.md
@@ -7,7 +7,8 @@ nav:
     - Scientific Data Types: notebooks/Scientific_Data_Types.ipynb
     - Functions: notebooks/Functions.ipynb
     - Objects: notebooks/Custom_Types.ipynb
-    - I/O and Scripting: notebooks/File_IO_Scripting.ipynb
+    - File I/O: notebooks/File_IO.ipynb
+    - Executables: notebooks/Scripting.ipynb
 
 theme: readthedocs
 plugins:
