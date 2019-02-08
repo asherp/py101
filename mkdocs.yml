@@ -1,0 +1,17 @@
+site_name: Kameleon Live
+
+nav:
+    - Home: index.md
+    - Installing From Source: install.md
+    - Installing From Container: container.md
+    - Analysis: notebooks/FieldManager_tut.ipynb
+    - Generating Documentation: mkdocs_instructions.md
+theme: readthedocs
+plugins:
+    - mknotebooks:
+        execute: true
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+        permalink: true
